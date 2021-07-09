@@ -1,0 +1,90 @@
+{
+    "name": "Control",
+    "maps": [
+        {
+            "name": "Action Commands",
+            "id": "50857d2b-1956-4ffc-9979-bcd103cfbf0c",
+            "actions": [
+                {
+                    "name": "ZPress",
+                    "type": "Button",
+                    "id": "98412035-8d04-402d-8129-d79a6364e58e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "XPress",
+                    "type": "Button",
+                    "id": "c56cc6bb-2279-47be-956c-a8522eebba0f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeftPress",
+                    "type": "Button",
+                    "id": "4f201e6e-e1d8-4109-885b-ef3e184d9c1d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightPress",
+                    "type": "Button",
+                    "id": "a74ec83c-4f57-4a4d-a81e-939fdfe050e4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3f7ec72c-5ae2-47b7-8550-b2b02ef6a349",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ZPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e39710f-a68b-4e1f-b041-069345f52040",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "XPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "233d59cd-253b-4531-95ae-d0e412440b4f",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f24982b4-6c2e-4963-ad8f-65b4128502f3",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

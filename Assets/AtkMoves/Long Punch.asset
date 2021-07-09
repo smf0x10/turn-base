@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85efb06356367da418a28d658cb7fb62, type: 3}
+  m_Name: Long Punch
+  m_EditorClassIdentifier: 
+  dmgVals:
+  - pwr: 2
+    angle: 1
+  - pwr: 3
+    angle: 1
+  - pwr: 2
+    angle: 3
+  actionCommands:
+  - key: 90
+    stored: 0
+    anim: longPunchS
+    good: 1
+  - key: 88
+    stored: 1
+    anim: longPunchSA
+    good: 1
+  - key: 90
+    stored: 0
+    anim: longPunchE
+    good: 0
+  - key: 88
+    stored: 0
+    anim: longPunchE
+    good: 0
+  - key: 88
+    stored: 1
+    anim: longPunchSB
+    good: 1
+  - key: 88
+    stored: 0
+    anim: longPunchEA
+    good: 0
+  relativePosition: -7
+  useRelativePosition: 1
+  startAnim: longPunch
